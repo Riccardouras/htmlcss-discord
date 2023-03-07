@@ -89,7 +89,7 @@ a {
     height: 498px;
     width: 721px;
 }
-.box1blue h1 {
+.flex h1 {
     font-size: 2em;
     font-style: inherit;
 }
@@ -104,19 +104,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d3d3d3;
     height: 605px;
     width: 100%;
 }
 .box2pink {
-    background-color: #ffc0cb;
     height: 498px;
     width: 721px;
     align-self: center;
     justify-self: flex-end;
 }
 .box2blue {
-    background-color: #1e90ff;
     height: 498px;
     width: 480px;
 }
