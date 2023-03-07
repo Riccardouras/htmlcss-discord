@@ -4,9 +4,12 @@
     margin: 0px;
 }
 header {
-    background-color: #3161e0;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
     width: 100%;
     min-height: 625px;
+    display: block;
+    background-repeat: no-repeat;
 }
 .flexcontainer{
     display: flex;
@@ -15,10 +18,6 @@ header {
     margin: 0px auto;
     justify-content: center;
     align-items: center;
-}
-.orange {
-    background-color: #daa520;
-
 }
 .size {
     width: 240px;
@@ -39,26 +38,41 @@ a {
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 4%;
+    color: whitesmoke;
+    font-size: 1,5em;
 }
-
+.blue{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 535px;
+}
 .end{
     display: flex;
     justify-content: flex-end;
 }
-
-.blue {
-    background-image: url(../img/jumbo.png);
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
 .pink {
-    background-color: #ee82ee;
     width: 50% ;
     height: 406px;
     align-self: center;
     justify-self: center;
+}
+.align{
+    text-align: center;
+    font-family: 'Nunito sans';
+}
+.align h1{
+    font-size: 4em ;
+    color: whitesmoke;
+}
+.align h2 {
+    font-size: 2em;
+    color: whitesmoke;
+}
+.align button{
+    margin: 3%;
 }
 .container {
     display: flex;
