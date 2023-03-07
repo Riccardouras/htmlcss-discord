@@ -3,6 +3,9 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    font-family: 'Nunito sans';
+}
 header {
     background-image: url(../img/jumbo.png);
     background-size: 100%;
@@ -29,8 +32,6 @@ header {
 }
 .border {
     border: 3px;
-    border-style:dashed;
-    border-color: black;
     display: flex;
     align-items: center;   
 }
@@ -61,7 +62,6 @@ a {
 }
 .align{
     text-align: center;
-    font-family: 'Nunito sans';
 }
 .align h1{
     font-size: 4em ;
@@ -78,18 +78,27 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 605px;
+    min-height: 605px;
     width: 100%;
 }
 .box1pink {
-    background-color: #ffc0cb;
     height: 498px;
     width: 480px;
 }
 .box1blue {
-    background-color: #1e90ff;
     height: 498px;
     width: 721px;
+}
+.box1blue h1 {
+    font-size: 2em;
+    font-style: inherit;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30%;
+    line-height: 182%;
 }
 .containergray {
     display: flex;
@@ -103,6 +112,8 @@ a {
     background-color: #ffc0cb;
     height: 498px;
     width: 721px;
+    align-self: center;
+    justify-self: flex-end;
 }
 .box2blue {
     background-color: #1e90ff;
