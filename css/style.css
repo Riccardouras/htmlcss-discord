@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: #3161e0;
+    width: 100%;
+    min-height: 625px;
+}
+.flexcontainer{
+    display: flex;
+    width: 1200px;
+    height: 47px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+.orange {
+    background-color: #daa520;
+
+}
+.size {
+    width: 240px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    width: 720px;
+}
+.border {
+    border: 3px;
+    border-style:dashed;
+    border-color: black;
+    display: flex;
+    align-items: center;   
+}
+a {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blue {
+    background-image: url(../img/jumbo.png);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.pink {
+    background-color: #ee82ee;
+    width: 50% ;
+    height: 406px;
+    align-self: center;
+    justify-self: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 605px;
+    width: 100%;
+}
+.box1pink {
+    background-color: #ffc0cb;
+    height: 498px;
+    width: 480px;
+}
+.box1blue {
+    background-color: #1e90ff;
+    height: 498px;
+    width: 721px;
+}
+.containergray {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d3;
+    height: 605px;
+    width: 100%;
+}
+.box2pink {
+    background-color: #ffc0cb;
+    height: 498px;
+    width: 721px;
+}
+.box2blue {
+    background-color: #1e90ff;
+    height: 498px;
+    width: 480px;
+}
+.containergray2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d3;
+    height: 1000px;
+    width: 100%;
+}
+.boxgreen {
+    background-color: #228b22;
+    width: 1201px;
+    height: 901px;
+}
+.containerblack {
+    background-color: #23272a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 742px;
+    padding-bottom: 131px;
+}
+.pinkfooter {
+    background-color: #f08080;
+    width: 358px;
+    height: 578px;
+    border: 3px dotted black;
+}
+.bluefooter {
+    background-color: #20b2aa;
+    height: 578px;
+    width: 208px;
+}
+.borderleft {
+    border-top: 3px dotted white;
+    border-bottom: 3px dotted white;
+    border-left: 3px dotted white;
+}
+.borderright {
+    border-top: 3px dotted white;
+    border-bottom: 3px dotted white;
+    border-left: 3px dotted white;
+    border-right: 3px dotted white;
+}
+.containerblackend {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #23272a ;
+}
+.containerend {
+    display: flex;
+    background-color: #7fffd4;
+    height: 81px;
+    width: 1205px;
+    align-items: center;
+    justify-content: space-between ;
+    margin-top: 20px;
+}
+.pinkbuttons {
+    background-color: #ffb5bf;
+    width: 91px;
+    height: 36px;
+    justify-content: center;
+}
